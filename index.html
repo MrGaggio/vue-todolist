@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,36 +8,57 @@
     <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
     <title>Document</title>
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
+
 <body>
-
-    <header>
-        <h1>My Day</h1>
-        <p>Fri 17 December</p>
-    </header>
-
-    <main>
-        <div class="container">
-            <div class="to_do">
-                <span class="display"><i  class="fas fa-check-circle"></i></span>  
-                <span><i class="far fa-circle"></i></span>
-                <h2 class="list done undone">Finalize presentation</h2>
-                <p class="category">Work</p>
+    <div class="main_container">
+        <header>
+            <img class="img" src="./assets/img/1.jpg" alt="">
+            <div class="header_txt">
+                <h1>My Day</h1>
+                <h2>Fri 17 December</h2>
             </div>
-        </div>
 
-        <div class="add_to_do">
-            <span class="add"><i class="fas fa-plus-circle"></i></span>
-            <h2 class="add_txt">Add a to-do</h2>
-        </div>
+        </header>
 
-    </main>
+        <main>
+            <div class="container">
+                <div class="to_do">
+                    <span class="todo_display"><i class="fas fa-check-circle"></i></span>
+                    <span class="todo_not"><i class="far fa-circle"></i></span>
+                    <div class="to_do_txt">
+                        <h2 class="list done undone">Presentazione Finale</h2>
+                        <p class="category">Work</p>
+                    </div>
 
+                    <div class="to_do">
+                        <span class="todo_display"><i class="fas fa-check-circle"></i></span>
+                        <span class="todo_not"><i class="far fa-circle"></i></span>
+                        <div class="to_do_txt">
+                            <h2 class="list done undone">Prova lezione cucina</h2>
+                            <p class="category">Hobbies</p>
+                        </div>
+
+                        
+                    
+                </div>
+            </div>
+
+            <div class="add_to_do">
+                <span class="add"><i class="fas fa-plus-circle"></i></span>
+                <h2 class="add_txt">Add a to-do</h2>
+            </div>
+
+        </main>
+    </div>
 
 
 
     <script src="./assets/js/main.js"></script>
 </body>
+
 </html>

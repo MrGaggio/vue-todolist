@@ -4,15 +4,47 @@
     box-sizing: border-box;
 }
 
-.display{
-    display: none;
+/* Utility */
+
+.main_container{
+    width: 461px;
+    margin: auto;
+
 }
 
+header{
+    position: relative;
+}
 
-.add{
-    
+img{
+    background-size: contain;
+}
+
+.header_txt{
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    top: 250px;
+    left: 30px;
+}
+
+.todo_display{
+    display: none;
 }
 
 .add_txt{
     display: inline-block;
+}
+
+.todo_not{
+    font-size: 20px;
+    line-height: 100px;
+    padding-bottom: 20px;
+}
+
+.to_do_txt{
+    display: inline-block;
+    height: 100px;
+    color: rgb(87, 100, 112);
+    padding-left: 10px;
 }
