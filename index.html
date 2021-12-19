@@ -28,22 +28,15 @@
         <main>
             <div class="container">
                 <div class="to_do">
-                    <span class="todo_display"><i class="fas fa-check-circle"></i></span>
-                    <span class="todo_not"><i class="far fa-circle"></i></span>
-                    <div class="to_do_txt">
-                        <h2 class="list done undone">Presentazione Finale</h2>
-                        <p class="category">Work</p>
-                    </div>
-
-                    <div class="to_do">
-                        <span class="todo_display"><i class="fas fa-check-circle"></i></span>
-                        <span class="todo_not"><i class="far fa-circle"></i></span>
-                        <div class="to_do_txt">
-                            <h2 class="list done undone">Prova lezione cucina</h2>
-                            <p class="category">Hobbies</p>
-                        </div>
-
-                        
+                    <ul >
+                        <li v-for="(activity, index) in activities" >
+                            <div>
+                                <h2>{{ activity.text}}</h2>
+                                <p>{{ activity.done }}</p>
+                            </div>
+                          
+                        </li>
+                    </ul>
                     
                 </div>
             </div>

@@ -20,10 +20,18 @@ const app = new Vue({
     el: '#app',
     data: {
     
-        const: activity [
+        const: activities [
             {
                 text: "presentazione Finale",
-                done: "true/false",
+                done: "true",
+            },
+            {
+                text: "corso js",
+                done: "false",
+            },
+            {
+                text: "andare in piscina",
+                done: "true",
             }
         ] 
 
