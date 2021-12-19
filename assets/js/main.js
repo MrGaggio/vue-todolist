@@ -35,8 +35,13 @@ const app = new Vue({
                 done: "true"
             },
         ]
-
-
     },
+    methods: {
+        sbarrato: function(){
+            if (this.done == "true") {
+                
+            }
+        }
+    }
  
   })

@@ -24,6 +24,10 @@ ul{
     list-style-type: none;
 }
 
+.sottolineato{
+    text-decoration: line-through;
+}
+
 .header_txt{
     position: absolute;
     color: white;
