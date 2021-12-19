@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
     <title>Document</title>
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
@@ -28,16 +27,16 @@
         <main>
             <div class="container">
                 <div class="to_do">
-                    <ul >
-                        <li v-for="(activity, index) in activities" >
+                    <ul>
+                        <li v-for="(activity, index) in activities">
                             <div>
                                 <h2>{{ activity.text}}</h2>
                                 <p>{{ activity.done }}</p>
                             </div>
-                          
+
                         </li>
                     </ul>
-                    
+
                 </div>
             </div>
 
@@ -50,7 +49,7 @@
     </div>
 
 
-
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
     <script src="./assets/js/main.js"></script>
 </body>
 

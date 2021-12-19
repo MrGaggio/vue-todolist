@@ -16,24 +16,27 @@ Bonus:
 */
 
 
+
 const app = new Vue({
     el: '#app',
     data: {
-    
-        const: activities [
-            {
-                text: "presentazione Finale",
-                done: "true",
-            },
-            {
-                text: "corso js",
-                done: "false",
-            },
+     
+        activities: [
             {
                 text: "andare in piscina",
-                done: "true",
-            }
-        ] 
+                done: "false"
+            },
+            {
+                text: "andare a lavoro",
+                done: "true"
+            },
+            {
+                text: "studiare",
+                done: "true"
+            },
+        ]
 
-    }
+
+    },
+ 
   })
