@@ -37,12 +37,12 @@ const app = new Vue({
         ]
     },
     methods: {
-        sbarrato: function(){
-            if (this.done == "true") {
-                this.text.classlist.add('sottolineato')
-                console.log(this.text);
-            }
-        }
+        // sbarrato: function(){
+        //     if (this.done == "true") {
+        //         this.text.classList.add('sottolineato')
+        //         console.log(this.text);
+        //     }
+        // }
     }
  
   })
