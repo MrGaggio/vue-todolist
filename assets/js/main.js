@@ -24,25 +24,18 @@ const app = new Vue({
         activities: [
             {
                 text: "andare in piscina",
-                done: "false"
+                done: false
             },
             {
                 text: "andare a lavoro",
-                done: "true"
+                done: true
             },
             {
                 text: "studiare",
-                done: "true"
-            },
+                done: true
+            }
         ]
     },
-    methods: {
-        // sbarrato: function(){
-        //     if (this.done == "true") {
-        //         this.text.classList.add('sottolineato')
-        //         console.log(this.text);
-        //     }
-        // }
-    }
+
  
   })

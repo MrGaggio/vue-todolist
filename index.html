@@ -28,13 +28,13 @@
             <div class="container">
                 <div class="to_do">
                     <ul>
-                        <li v-for="(activity, index) in activities">
-                            <div>
-                                <h2 v-if="activities.done = 'true'" class="sottolineato" >{{ activity.text}}</h2>
-                                <h2 v-else> {{ activity.text }}</h2>
-                                <p>{{ activity.done }}</p>
-                            </div>
-
+                        <li
+                         v-for="(activity, index) in activities" class="todo"
+                      
+                         
+                         :class="{sottolineato: activity.done}"
+                         >
+                         {{ activity.text }}
                         </li>
                     </ul>
 
