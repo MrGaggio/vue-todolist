@@ -20,7 +20,7 @@ Bonus:
 const app = new Vue({
     el: '#app',
     data: {
-        nuovo:'',
+        newActivity: '',
         activities: [
             {
                 text: "andare in piscina",
@@ -41,8 +41,13 @@ const app = new Vue({
             this.activities.splice(activityIndex, 1)
         },
         addActivity: function (){
-            //push un nuovo 
-            
+            //struttura dell'oggetto da pushare
+            let obj = {
+                text: this.newActivity,
+                done: false
+            }
+            //pusha il nuovo oggetto
+            this.activities.push(obj);
         }
     }
  
