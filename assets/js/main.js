@@ -36,6 +36,10 @@ const app = new Vue({
             }
         ]
     },
-
+    methods:{
+        removeActivity(activityIndex) {
+            this.activities.splice(activityIndex, 1)
+        },
+    }
  
   })

@@ -35,6 +35,9 @@
                          :class="{sottolineato: activity.done}"
                          >
                          {{ activity.text }}
+                         <i 
+                         @click="removeActivity(index)"
+                         class="fas fa-times"></i>
                         </li>
                     </ul>
 
