@@ -20,7 +20,7 @@ Bonus:
 const app = new Vue({
     el: '#app',
     data: {
-     
+        nuovo:'',
         activities: [
             {
                 text: "andare in piscina",
@@ -40,6 +40,10 @@ const app = new Vue({
         removeActivity(activityIndex) {
             this.activities.splice(activityIndex, 1)
         },
+        addActivity: function (){
+            //push un nuovo 
+            
+        }
     }
  
   })

@@ -45,8 +45,12 @@
             </div>
 
             <div class="add_to_do">
-                <span class="add"><i class="fas fa-plus-circle"></i></span>
-                <h2 class="add_txt">Add a to-do</h2>
+                <span class="add">
+                <i
+                @click="addActivity"
+                class="fas fa-plus-circle"></i></span>
+                <h2 class="add_txt">Add</h2>
+                <input v-model="nuovo" type="text" placeholder="Enter a new activity">
             </div>
 
         </main>
