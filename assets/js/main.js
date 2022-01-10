@@ -37,18 +37,18 @@ const app = new Vue({
         ]
     },
     methods:{
-        removeActivity(activityIndex) {
-            this.activities.splice(activityIndex, 1)
-        },
-        addActivity: function (){
-            //struttura dell'oggetto da pushare
-            let obj = {
-                text: this.newActivity,
-                done: false
-            }
-            //pusha il nuovo oggetto
-            this.activities.push(obj);
-        }
+        // removeActivity(activityIndex) {
+        //     this.activities.splice(activityIndex, 1)
+        // },
+        // addActivity: function (){
+        //     //struttura dell'oggetto da pushare
+        //     let obj = {
+        //         text: this.newActivity,
+        //         done: false
+        //     }
+        //     //pusha il nuovo oggetto
+        //     this.activities.push(obj);
+        // }
     }
  
   })
